@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<!-- link to your script file here -->
+		<script src="fancifymytext.js"></script>
+		
+	</head>
+
+	<style>
+		p.pad {
+  			padding: 5px;
+		}
+	</style>
+
+	<body>
+		<h1>Fancify my Text</h1>
+
+		<!-- Your UI controls go here -->
+		<p class="pad">
+			<label for="Text"> Text: </label>
+			<textarea id="Text" class="form-control" rows="4" cols="30">Hello, World.</textarea>
+		</p>
+		<!-- Your UI controls go here -->
+
+		<p class="pad">
+			<label for="Fancify"> Fancify: </label>
+			<textarea id="Fancify" class="form-control" rows="4" cols="30">Hello, World.</textarea>
+		</p>
+
+		<p class="pad">
+			<input type="button" value="Bigger!" id="bigger">
+		</p>
+
+		<p class="pad">
+			<input type="radio" id="fancyradio" name="optradio" value="email">
+        	<label for="fancyradio">FancyShmancy</label>
+
+			<input type="radio" id="boringradio" name="optradio" value="email">
+        	<label for="boringradio">BoringBetty</label>
+		</p>
+
+		<p class="pad">
+			<input type="button" value="Moo" id="moo">
+		</p>
+		
+	</body>
+</html>
